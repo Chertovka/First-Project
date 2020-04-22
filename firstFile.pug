@@ -1,6 +1,15 @@
-html(lang="ru")
-  head
-    meta(charset="utf-8")
-    title= "Учимся работать с шаблонизатором Pug"
-  body
-      h1 Hello, World!
+extends layout/main
+block variables
+	-var pageTitle='123';
+	- var youAreUsingPug = true
+
+block content
+	h1.title Pug - node template engine
+	#container.col
+		if youAreUsingPug
+			p Yoy are amazing
+		else
+			p Get on it!
+		p.
+			Pug is a terse and simple templating language with a
+			strong focus on perfomance and powerful features.
