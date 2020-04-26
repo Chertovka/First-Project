@@ -1,0 +1,19 @@
+extends page.pug
+
+mixin headerNavLink(link,text)
+	li.header-nav__item
+		a(href=link).header-nav__link=text
+block content
+	header.header
+		.container
+			.header__top
+				nav.header__nav.header__nav--right.header-nav
+					ul.header-nav__list
+						+headerNavLink('','О нас')
+						+headerNavLink('','Услуги')
+						+headerNavLink('','Вакансии')
+						+headerNavLink('','Новости')
+						+headerNavLink('','Соглашения')
+						+headerNavLink('','Войти')
+						+headerNavLink('','Зарегистрироваться')
+			.header__bottom
