@@ -1,0 +1,13 @@
+.header-nav{
+	align-items:center;
+	display:flex;
+	&__item{
+		margin-right:20px;
+		&:last-child{ margin-right: 0; }
+	}
+	&__link{
+		font-size:14px;
+		line-height:17px;
+		color:#1d1f3f;
+	}
+}
