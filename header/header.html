@@ -1,13 +1,52 @@
 <!DOCTYPE html>
 <head class="head">
   <title>Главная страница</title>
-  <style>@import "header"
-@import "header-nav"
+  <style>.header {
+  background-color: #EAEBF5;
+}
+.header__nav.header__nav--right {
+  margin-left: auto;
+}
+.header__top {
+  align-items: center;
+  display: flex;
+  padding: 26px 0;
+}
+
+.header-nav__list {
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+}
+.header-nav__item {
+  margin-right: 20px;
+}
+.header-nav__item:last-child {
+  margin-right: 160px;
+}
+.header-nav__link {
+  font-size: 14px;
+  line-height: 17px;
+  color: #1d1f3f;
+  text-decoration: none;
+}
+.header-nav__button {
+  border-radius: 22px;
+}
+.header-nav__button__border {
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+}
+
+/*# sourceMappingURL=style.css.map */
+
   </style>
   <body>
     <header class="header">
       <div class="container">
         <div class="header__top">
+          <nav class="header__nav header-nav">
+            <ul class="header-nav__list"><img class="logo__img" src="logo.38e729eb.svg" alt="Логотип"></ul>
+          </nav>
           <nav class="header__nav header__nav--right header-nav">
             <ul class="header-nav__list">
               <li class="header-nav__item"><a class="header-nav__link" href="">О нас</a></li>
@@ -20,7 +59,6 @@
             </ul>
           </nav>
         </div>
-        <div class="header__bottom"></div>
       </div>
     </header>
   </body>
