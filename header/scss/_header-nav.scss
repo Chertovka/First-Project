@@ -1,0 +1,23 @@
+.header-nav{
+	&__list{
+		align-items:center;
+		display:flex;
+		list-style-type: none;
+	}
+	&__item{
+		margin-right:20px;
+		&:last-child{ margin-right: 160px; }
+	}
+	&__link{
+		font-size:14px;
+		line-height:17px;
+		color:#1d1f3f;
+		text-decoration:none;
+	}
+	&__button{
+		&__border{
+			background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+		}
+		border-radius: 22px;
+	}
+}
