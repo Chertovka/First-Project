@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<head class="head">
+  <title>Главная страница</title>
+  <style>.footer {
+  display: flex;
+  position: fixed;
+  overflow: unset;
+  top: 1092px;
+  left: 0;
+  width: 100%;
+  height: 372px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.footer .container_footer {
+  margin-left: 140px;
+  margin-right: 140px;
+  height: 100%;
+  display: flex;
+  align-items: normal;
+  list-style-type: none;
+  width: 1440px;
+}
+.footer .container_footer .box {
+  position: fixed;
+  height: 100%;
+  width: 1440px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
+}
+.footer .container_footer .box .logotip {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  padding-top: 100px;
+  padding-left: 140px;
+}
+.footer .container_footer .box .text {
+  position: fixed;
+  width: 260px;
+  height: 72px;
+  padding-top: 160px;
+  padding-left: 140px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.container_main {
+  display: flex;
+  margin-left: 140px;
+  margin-right: 140px;
+  padding-left: 92px;
+}
+
+.main {
+  left: 0px;
+  top: 70px;
+  width: 100%;
+  height: 1022px;
+  position: fixed;
+  display: flex;
+  align-items: normal;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.background {
+  display: flex;
+  width: 1534px;
+  height: 1022px;
+  position: relative;
+}
+.background .text_block {
+  position: absolute;
+  width: 297px;
+  height: 48px;
+  left: 1009px;
+  top: 834px;
+  display: flex;
+  align-items: normal;
+  align-content: center;
+  justify-content: center;
+  overflow: unset;
+}
+.background .p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: right;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.header {
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  display: flex;
+  align-items: normal;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+  background: white;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+}
+
+.container {
+  margin-left: 140px;
+  margin-right: 140px;
+  height: 70px;
+  display: flex;
+  align-items: normal;
+  list-style-type: none;
+  width: 1440px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin-left: 286px;
+  margin-right: 20px;
+}
+.nav :last-child {
+  margin-right: 0px;
+}
+.nav__list {
+  display: flex;
+  align-items: normal;
+  padding-top: 11px;
+  padding-bottom: 15px;
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.nav__links {
+  display: flex;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  margin-right: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  color: rgba(31, 32, 65, 0.5);
+  width: max-content;
+}
+.nav__img {
+  top: 26px;
+}
+.nav .img1 {
+  padding-left: 0px;
+}
+.nav .img2 {
+  padding-left: 0px;
+}
+
+.button {
+  display: block ruby;
+  flex-wrap: nowrap;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  padding-top: 18px;
+}
+.button :last-child {
+  margin-right: 0px;
+}
+.button__border {
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  width: 196px;
+  height: 34px;
+  color: white;
+  border-radius: 22px;
+}
+.button__view {
+  border-radius: 22px;
+  height: 34px;
+  color: #BC9CFF;
+  border: 0.125rem solid transparent;
+  box-shadow: inset 2px 1000px 1px white;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(180deg, #bc9cff, #8ba4f9);
+  background-clip: content-box, border-box;
+  background-origin: border-box;
+  width: 87px;
+}
+.button__linkButton {
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
+  margin-right: 20px;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.button__listButton {
+  padding-bottom: 28px;
+  padding-top: 27px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  box-sizing: border-box;
+  outline: none;
+  cursor: auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+  </style>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo"><img class="logo__img" src="logo.38e729eb.svg" alt="Логотип"></div>
+        <div class="nav">
+          <ul class="nav__list">
+            <li class="nav__links">О нас</li>
+            <li class="nav__links">Услуги<img class="nav__img img1" src="flow.svg" alt="Указатель"></li>
+            <li class="nav__links">Вакансии</li>
+            <li class="nav__links">Новости</li>
+            <li class="nav__links">Соглашения<img class="nav__img img2" src="flow.svg" alt="Указатель"></li>
+          </ul>
+        </div>
+        <div class="button">
+          <div class="nav__listButton">
+            <button class="button__view button__linkButton">ВОЙТИ</button>
+            <button class="button__border button__linkButton">ЗАРЕГИСТРИРОВАТЬСЯ</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container_main">
+        <div class="background"><img class="background_img" src="image 3.jpg" alt="image 3">
+          <div class="text_block">
+            <p class="p">Лучшие номера для вашей работы, отдыха и просто вдохновения</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container_footer">
+        <div class="box">
+          <div class="logotip"><img class="logotip__img" src="logo.38e729eb.svg" alt="Логотип"></div>
+          <div class="text">
+            <p class="text__p">Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</head>
